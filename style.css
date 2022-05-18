@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Arial"; 
+    src: url("Arial.otf") format("opentype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d7e7eb;
+     border-radius: 50px;
+}
+header{
+    height: 100px;
+    background-color: #b6b059;
+}
+.logo{
+    height: 80px;
+    border-radius: 150px;
+}
+.url{ 
+    color: black;
+}
+.url:hover {
+    color: #1ed306;
+}
+table{
+    border: 4px double black;
+}
+th{
+    border: 1px solid black;
+}
+tr:nth-child(odd){
+     background-color:#adb659;
+     border-radius: 50px;
+}
+tr:nth-child(even){
+    background-color: #3498db; 
+}
+footer{
+    height: 100px;
+    background-color:#a8b659;
+     border-radius: 50px;
+}
+a:hover{
+    color: #1ed306;
+}
+@media all and (orientation: landscape), (min-device-width: 700px){
+    header{
+        height: 65px;
+    }
+    .logo{
+        height: 60px;
+    }
+    footer{
+        height: 60px;
+    }
+}
+
